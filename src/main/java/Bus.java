@@ -7,11 +7,22 @@ public class Bus {
 
     public Bus() {
         this.destination = "";
-        this.capacity = 30;
+        this.capacity = 3;
         this.passengers = new ArrayList<>();
     }
 
     public int getPassengers() {
         return passengers.size();
+    }
+
+    public boolean addPassenger(Person person) {
+        if (getPassengers() < capacity) {
+            passengers.add(person);
+            return true;
+        }
+
+        return false;
+
+
     }
 }
