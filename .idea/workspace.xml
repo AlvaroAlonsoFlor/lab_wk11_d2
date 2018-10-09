@@ -498,7 +498,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539087526781" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539088329356" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -512,7 +512,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BusStopTest.addToQueue">
+  <component name="RunManager" selected="JUnit.BusStopTest">
+    <configuration name="BusStopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BusLab_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BusStopTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BusStopTest.addToQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BusLab_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -545,9 +553,11 @@
       <item itemvalue="JUnit.BusTest.numberOfPassengers" />
       <item itemvalue="JUnit.BusTest" />
       <item itemvalue="JUnit.BusStopTest.addToQueue" />
+      <item itemvalue="JUnit.BusStopTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BusStopTest" />
         <item itemvalue="JUnit.BusStopTest.addToQueue" />
         <item itemvalue="JUnit.BusTest" />
         <item itemvalue="JUnit.BusTest.numberOfPassengers" />

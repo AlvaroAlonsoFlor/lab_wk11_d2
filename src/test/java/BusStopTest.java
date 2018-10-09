@@ -18,4 +18,12 @@ public class BusStopTest {
         busStop.addToQueue(person);
         assertEquals(1, busStop.getQueue());
     }
+
+    @Test
+    public void removeFromQueue() {
+        busStop.addToQueue(person);
+        assertEquals(1, busStop.getQueue());
+        busStop.removeFromQueue();
+        assertEquals(0, busStop.getQueue());
+    }
 }
