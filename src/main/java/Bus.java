@@ -5,8 +5,8 @@ public class Bus {
     private int capacity;
     private ArrayList<Person> passengers;
 
-    public Bus() {
-        this.destination = "";
+    public Bus(String destination) {
+        this.destination = destination;
         this.capacity = 3;
         this.passengers = new ArrayList<>();
     }
@@ -34,6 +34,14 @@ public class Bus {
     public void pickUp(BusStop busStop) {
         Person person = busStop.removeFromQueue();
         addPassenger(person);
+
+    }
+
+    public  void pickUpOurWay(BusStop busStop) {
+        if (busStop.getQueue() > 0) {
+            Person person = busStop.getQueueArray().get(0);
+            addPassenger(person);
+        }
 
     }
 }

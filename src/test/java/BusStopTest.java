@@ -26,4 +26,5 @@ public class BusStopTest {
         busStop.removeFromQueue();
         assertEquals(0, busStop.getQueue());
     }
+
 }
