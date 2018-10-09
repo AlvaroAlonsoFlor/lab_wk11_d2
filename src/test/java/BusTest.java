@@ -34,4 +34,11 @@ public class BusTest {
 
     }
 
+    @Test
+    public void removePassenger() {
+        bus.addPassenger(person);
+        assertEquals(1, bus.getPassengers());
+        bus.removePassenger();
+        assertEquals(0, bus.getPassengers());
+    }
 }
