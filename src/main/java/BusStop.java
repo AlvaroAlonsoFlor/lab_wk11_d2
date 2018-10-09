@@ -9,6 +9,10 @@ public class BusStop {
         this.queue = new ArrayList<>();
     }
 
+    public ArrayList<Person> getQueueArray() {
+        return queue;
+    }
+
     public int getQueue() {
         return queue.size();
     }
@@ -18,7 +22,7 @@ public class BusStop {
         queue.add(person);
     }
 
-    public void removeFromQueue() {
-        queue.remove(0);
+    public Person removeFromQueue() {
+        return queue.remove(0);
     }
 }
